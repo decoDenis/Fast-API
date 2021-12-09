@@ -3,9 +3,10 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
-**/__pycache__
-**/venv/*
+**/venv/
 venv/*
+**Lib/
+**/__pycache__
 
 # Other files and folders
 .settings/
@@ -19,3 +20,12 @@ venv/*
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
